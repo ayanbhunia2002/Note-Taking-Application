@@ -7,16 +7,18 @@ function App() {
   return (
     <div>
       <Header />
-      <Notes />
-      <Notes />
-      <Notes />
-      <Notes />
-      <Notes />
-      <Notes />
-      <Notes />
-      <Notes />
-      <Notes />
-      <Notes />
+      <div className="Note-Container">
+        <Notes />
+        <Notes />
+        <Notes />
+        <Notes />
+        <Notes />
+        <Notes />
+        <Notes />
+        <Notes />
+        <Notes />
+        <Notes />
+      </div>
       <Footer />
     </div>
   );
