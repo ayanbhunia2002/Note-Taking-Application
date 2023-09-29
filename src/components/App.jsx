@@ -6,17 +6,19 @@ import Notes from "./Notes";
 function App() {
   return (
     <div>
-      <Header />
-      <Notes />
-      <Notes />
-      <Notes />
-      <Notes />
-      <Notes />
-      <Notes />
-      <Notes />
-      <Notes />
-      <Notes />
-      <Notes />
+      <Header title="Note Taking App"/>
+      <div className="Note-Container">
+        <Notes />
+        <Notes />
+        <Notes />
+        <Notes />
+        <Notes />
+        <Notes />
+        <Notes />
+        <Notes />
+        <Notes />
+        <Notes />
+      </div>
       <Footer />
     </div>
   );
